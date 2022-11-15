@@ -28,7 +28,11 @@ string_var1 = "562"
 string_var1 = int(string_var1) + 21
 print('String conversion', string_var1)
 
+#Convert type of data during input
 name = input("Enter value for name: ")
-age = input("Emter value for age: ")
+age = int(input("Emter value for age: "))
 print("User name is: ", name)
 print("User age is: ", age)
+
+print('Type of name is: ', type(name))
+print('Type of age is: ', type(age))
