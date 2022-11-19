@@ -100,7 +100,7 @@ example_nonkeyed_args('hey', 'hii',4,5,5678.45678)
 
 #key value type of arguments in python
 def example_of_kwargs(**kwargs):
-    print("V")
+    print("Value of host is: ", kwargs['host'])
     for k, v in kwargs.items():
         print("Key is: ", k, "value is: ",v)
 example_of_kwargs(host='170.80.80.80', port=9021, pwd='DFJHMNB')
